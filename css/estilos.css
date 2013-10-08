@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, /*blockquote,*/ pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption{
+	margin: 0; padding: 0; border: 0; font-size: 100%;
+	vertical-align: baseline;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+/*--------------------- ESTILOS GENERALES ---------------------*/
+
+body, p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px; line-height:18px;}
+h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px; font-weight:normal;}
+hr{
+	width:98%; border:#CDCCBF 1px solid;
+	float:left; padding:0;}
+#contenedor{width:100%;float:left;}
+#cabecera, #cuerpo, #sub-slider, #footer{width:100%; float:left;}
+#cabecera{height:129px; background:url(../imagenes/fondo-cabecera.jpg) center;}
+#cuerpo{background:url(../imagenes/fondo-web.gif) repeat; padding:10px 0 10px 0;}
+#footer{
+	color:#FFF; height:123px; padding:10px 0 10px 0;
+	background:url(../imagenes/fondo-footer.jpg) repeat-x;}
+#footer p a{ color:#FFF; text-decoration:none;}
+.interior{ width:980px; margin:0 auto;}
+#contenido-cabecera{ height:129px;
+	background:url(../imagenes/cabecera-logo-fecha.jpg);}
+#logo-sup{
+	width:573px; height:63px; float:left; margin:35px 0 0 20px;
+	background:url(../imagenes/logo.png) no-repeat;}
+#logo-sup h1{display:none;}
+#menu-fecha-cab{
+	width:340px; height:70px; float:right; padding:25px 10px 0 0;}
+#menu-cab{ font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px; color:#FFF; text-align:right;}
+#menu-cab a{ text-decoration:none; color:#FFF;}
+#fecha-cab{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px; color:#FFF; text-align:right;padding:20px 0 0 0;}
+#slider{ width:978px; height:256px; padding:0 0 10px 0;}
+#sub-slider{ height:134px;
+	background:url(../imagenes/fondo-alianzas.png) repeat-x;}
+#menu{
+	height:48px; margin:0 auto; font-size:17px; padding:0 0 0 17px;
+	background:url(../imagenes/fondo-menu.png) no-repeat center;
+	font-family:Verdana, Geneva, sans-serif;}
+#menu ul{ text-decoration:none; list-style:none; color:#000;}
+#menu ul li a{
+	width:161px; height:25px; text-align:center; text-decoration:none;
+	list-style:none; display:block; float:left; margin:6px 13px;
+	padding:10px 0 0 0; color:#000;}
+#menu ul li a:hover{
+	width:161px; height:25px; text-align:center; text-decoration:none;
+	list-style:none; display:block; float:left; margin:6px 13px;
+	padding:10px 0 0 0; color:#fff;
+	background:url(../imagenes/fondo-menu-over.png) no-repeat;}
+#contenido-cuerpo, #panel-sup{
+	width:100%; float:left; padding:5px 0 5px 0;}
+#panel-sup{ background:url(../imagenes/fondo-contenido.jpg) repeat-y;}
+#panel-izq{ width:305px; float:left; padding:5px 0 5px 0;}
+#panel-der{ width:655px; float:left; padding:5px 0 5px 15px;}
+#panel-inf{ width:945px; float:left; border-top:2px #CDCCBF solid; padding:10px 0 0 35px;}
+#item-panel-izq{ width:300px; float:left; text-align:center; padding:5px 0 5px 0;}
+#item-panel-der{ width:652px; float:left; padding:5px 0 5px 0; }
+.borde5{border:5px solid #ff622c;}
+.separacion15{ width:50px; height:15px; float:left;}
+
+#alianzas{
+	width:100%;
+	text-align:center;
+	padding:10px 0 0 0;	
+}
+
+.item-noticias{
+	width:650px; float:left; padding:10px 0;
+	border-bottom:1px dashed #666; }
+
+.item-noticias-imagen{
+	width:155px;
+	float:left;
+}
+
+.item-noticias-imagen img{
+	border:2px #900 solid;
+}
+
+.item-noticias-descripcion{
+	width:480px;
+	float:left;
+	padding:0 0 0 10px;
+}
+
+.texto16negroVerdana{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#000;
+}
+
+.texto16negroVerdana a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#000;
+}
+
+ul#forms{
+	text-decoration:none;
+	list-style:none;
+	color:#000;
+}
+
+ul#forms li a{
+	width:202px;
+	height:33px;
+	text-align:center;
+	text-decoration:none;
+	list-style:none;
+	display:block;
+	float:left;
+	margin:6px 13px;
+	padding:20px 0 0 0;
+	color:#000;
+	background:url(../imagenes/fondo-boton-forms.png) no-repeat top left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	color:#545454;
+}
+ul#forms li a:hover{ background-position: -201px; color:#FFF;}
+
+.item-footer{
+	width:200px;
+	float:left;
+}
+
+ul.footer{
+	text-decoration:none;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+ul.footer li a{
+	list-style:none;
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+}
+
+
+#copyright{
+	width:450px;
+	float:right;
+	text-align:right;
+	padding:30px 0 0 0;
+}
+
+#panel-der ul, #panel-der ul li{ list-style:square;	list-style-position:inside;
+padding:2px 5px;}

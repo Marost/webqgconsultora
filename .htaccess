@@ -1,0 +1,28 @@
+Options FollowSymLinks
+RewriteEngine On
+RewriteRule ^home$ 							/index.php
+RewriteRule ^nosotros$ 						/nosotros.php
+RewriteRule ^servicios$ 					/servicios.php
+RewriteRule ^unete$ 						/unete.php
+RewriteRule ^consultoria$ 					/consultoria.php
+RewriteRule ^inscripcion$ 					/inscripcion.php
+RewriteRule ^capacitacion$ 					/capacitacion.php
+RewriteRule ^contacto$ 						/contactenos.php
+RewriteRule ^noticias$ 						/noticias.php
+RewriteRule ^galeria$ 						/galeria.php
+RewriteRule ^cursos$ 						/cursos.php
+RewriteRule ^noticia/([0-9]*)/(.*)$ 		/noticia.php?id=$1&titulo=$2
+
+ErrorDocument 302 http://qgconsultora.com/
+ErrorDocument 400 http://qgconsultora.com/
+ErrorDocument 401 http://qgconsultora.com/
+ErrorDocument 403 http://qgconsultora.com/
+ErrorDocument 404 http://qgconsultora.com/
+ErrorDocument 405 http://qgconsultora.com/
+ErrorDocument 406 http://qgconsultora.com/
+ErrorDocument 408 http://qgconsultora.com/
+ErrorDocument 409 http://qgconsultora.com/
+ErrorDocument 410 http://qgconsultora.com/
+ErrorDocument 500 http://qgconsultora.com/
+ErrorDocument 501 http://qgconsultora.com/
+ErrorDocument 505 http://qgconsultora.com/
